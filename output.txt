@@ -1,0 +1,342 @@
+0: @hello_macro
+1: (
+2: '123
+3: )
+4: fn
+5: main
+6: (
+7: )
+8: {
+9: hello_world
+10: (
+11: {
+12: a
+13: :
+14: "abc def
+15: ,
+16: b
+17: :
+18: map
+19: !
+20: (1
+21: ,
+22: 2
+23: ,
+24: 3
+25: )
+26: /
+27: }
+28: )
+29: ;
+30: 0xef
+31: }
+array(32) {
+  [0]=>
+  object(Rix\Lexer\Token)#5 (3) {
+    ["type"]=>
+    string(12) "T_ANNOTATION"
+    ["value"]=>
+    string(11) "hello_macro"
+    ["scalar"]=>
+    NULL
+  }
+  [1]=>
+  object(Rix\Lexer\Token)#6 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "("
+    ["scalar"]=>
+    NULL
+  }
+  [2]=>
+  object(Rix\Lexer\Token)#7 (3) {
+    ["type"]=>
+    string(8) "T_SCALAR"
+    ["value"]=>
+    string(4) "'123"
+    ["scalar"]=>
+    object(Rix\Lexer\Scalar)#8 (2) {
+      ["type"]=>
+      string(6) "string"
+      ["value"]=>
+      string(3) "123"
+    }
+  }
+  [3]=>
+  object(Rix\Lexer\Token)#9 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ")"
+    ["scalar"]=>
+    NULL
+  }
+  [4]=>
+  object(Rix\Lexer\Token)#10 (3) {
+    ["type"]=>
+    string(9) "T_KEYWORD"
+    ["value"]=>
+    string(2) "fn"
+    ["scalar"]=>
+    NULL
+  }
+  [5]=>
+  object(Rix\Lexer\Token)#11 (3) {
+    ["type"]=>
+    string(10) "T_IDENTIFY"
+    ["value"]=>
+    string(4) "main"
+    ["scalar"]=>
+    NULL
+  }
+  [6]=>
+  object(Rix\Lexer\Token)#12 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "("
+    ["scalar"]=>
+    NULL
+  }
+  [7]=>
+  object(Rix\Lexer\Token)#13 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ")"
+    ["scalar"]=>
+    NULL
+  }
+  [8]=>
+  object(Rix\Lexer\Token)#14 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "{"
+    ["scalar"]=>
+    NULL
+  }
+  [9]=>
+  object(Rix\Lexer\Token)#15 (3) {
+    ["type"]=>
+    string(10) "T_IDENTIFY"
+    ["value"]=>
+    string(11) "hello_world"
+    ["scalar"]=>
+    NULL
+  }
+  [10]=>
+  object(Rix\Lexer\Token)#16 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "("
+    ["scalar"]=>
+    NULL
+  }
+  [11]=>
+  object(Rix\Lexer\Token)#17 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "{"
+    ["scalar"]=>
+    NULL
+  }
+  [12]=>
+  object(Rix\Lexer\Token)#18 (3) {
+    ["type"]=>
+    string(10) "T_IDENTIFY"
+    ["value"]=>
+    string(1) "a"
+    ["scalar"]=>
+    NULL
+  }
+  [13]=>
+  object(Rix\Lexer\Token)#19 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ":"
+    ["scalar"]=>
+    NULL
+  }
+  [14]=>
+  object(Rix\Lexer\Token)#20 (3) {
+    ["type"]=>
+    string(8) "T_SCALAR"
+    ["value"]=>
+    string(8) ""abc def"
+    ["scalar"]=>
+    object(Rix\Lexer\Scalar)#21 (2) {
+      ["type"]=>
+      string(6) "string"
+      ["value"]=>
+      string(7) "abc def"
+    }
+  }
+  [15]=>
+  object(Rix\Lexer\Token)#22 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ","
+    ["scalar"]=>
+    NULL
+  }
+  [16]=>
+  object(Rix\Lexer\Token)#23 (3) {
+    ["type"]=>
+    string(10) "T_IDENTIFY"
+    ["value"]=>
+    string(1) "b"
+    ["scalar"]=>
+    NULL
+  }
+  [17]=>
+  object(Rix\Lexer\Token)#24 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ":"
+    ["scalar"]=>
+    NULL
+  }
+  [18]=>
+  object(Rix\Lexer\Token)#25 (3) {
+    ["type"]=>
+    string(10) "T_IDENTIFY"
+    ["value"]=>
+    string(3) "map"
+    ["scalar"]=>
+    NULL
+  }
+  [19]=>
+  object(Rix\Lexer\Token)#26 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "!"
+    ["scalar"]=>
+    NULL
+  }
+  [20]=>
+  object(Rix\Lexer\Token)#27 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(2) "(1"
+    ["scalar"]=>
+    NULL
+  }
+  [21]=>
+  object(Rix\Lexer\Token)#28 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ","
+    ["scalar"]=>
+    NULL
+  }
+  [22]=>
+  object(Rix\Lexer\Token)#29 (3) {
+    ["type"]=>
+    string(8) "T_SCALAR"
+    ["value"]=>
+    string(1) "2"
+    ["scalar"]=>
+    object(Rix\Lexer\Scalar)#30 (2) {
+      ["type"]=>
+      string(7) "numeric"
+      ["value"]=>
+      string(1) "2"
+    }
+  }
+  [23]=>
+  object(Rix\Lexer\Token)#31 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ","
+    ["scalar"]=>
+    NULL
+  }
+  [24]=>
+  object(Rix\Lexer\Token)#32 (3) {
+    ["type"]=>
+    string(8) "T_SCALAR"
+    ["value"]=>
+    string(1) "3"
+    ["scalar"]=>
+    object(Rix\Lexer\Scalar)#33 (2) {
+      ["type"]=>
+      string(7) "numeric"
+      ["value"]=>
+      string(1) "3"
+    }
+  }
+  [25]=>
+  object(Rix\Lexer\Token)#34 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ")"
+    ["scalar"]=>
+    NULL
+  }
+  [26]=>
+  object(Rix\Lexer\Token)#35 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "/"
+    ["scalar"]=>
+    NULL
+  }
+  [27]=>
+  object(Rix\Lexer\Token)#36 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "}"
+    ["scalar"]=>
+    NULL
+  }
+  [28]=>
+  object(Rix\Lexer\Token)#37 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ")"
+    ["scalar"]=>
+    NULL
+  }
+  [29]=>
+  object(Rix\Lexer\Token)#38 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) ";"
+    ["scalar"]=>
+    NULL
+  }
+  [30]=>
+  object(Rix\Lexer\Token)#39 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(4) "0xef"
+    ["scalar"]=>
+    NULL
+  }
+  [31]=>
+  object(Rix\Lexer\Token)#40 (3) {
+    ["type"]=>
+    string(8) "T_SYMBOL"
+    ["value"]=>
+    string(1) "}"
+    ["scalar"]=>
+    NULL
+  }
+}

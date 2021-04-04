@@ -1,0 +1,16 @@
+{
+    "name": "rix-lang/rix",
+    "description": "Rix is a simple tool language.",
+    "authors": [
+        {
+            "name": "Tianle Xu",
+            "email": "xtl@xtlsoft.top"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rix\\": "./src/"
+        }
+    }
+}

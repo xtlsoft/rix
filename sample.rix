@@ -1,0 +1,23 @@
+#!/bin/rixsh
+@META[]
+
+namespace app::test;
+
+@url git(https://github.com/xtlsoft/rix-tutorial)/hello.rix
+import tutorial::hello;
+import std::io;
+
+fn main(args: Map<String, String>) -> Result<int> {
+    // do something
+    io::stdout.write("hello world!")?;
+    match a { // pattern matching
+
+    }
+    return Ok(0); // You know this is rust-flavored
+};
+
+type Vector<T> { // only a generic for a certain type
+    
+}
+
+fn Vector::main() // do this is ok
